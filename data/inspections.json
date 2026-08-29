@@ -1,0 +1,252 @@
+[
+  {
+    "id": "ins-hist-001",
+    "establishmentId": "est-001",
+    "inspectorName": "أحمد العتيبي",
+    "startedAt": "2026-04-12T09:00:00.000Z",
+    "completedAt": "2026-04-12T11:15:00.000Z",
+    "status": "completed",
+    "violations": [
+      {
+        "id": "vio-001",
+        "establishmentId": "est-001",
+        "inspectionId": "ins-hist-001",
+        "date": "2026-04-12",
+        "category": "food_storage",
+        "severity": "high",
+        "description": "تم رصد تخزين مواد غذائية خام في درجات حرارة غير آمنة خارج النطاق المعتمد.",
+        "evidenceUrl": "/demo-evidence/food-storage-01.jpg",
+        "isRepeat": false,
+        "matchedPreviousViolationId": null
+      }
+    ],
+    "summary": "جولة تفتيشية روتينية على مطاعم النور. رُصدت مخالفة تخزين أغذية بدرجة خطورة عالية. تم إخطار المنشأة بضرورة معالجة درجات حرارة التخزين فوراً. رُفعت درجة الخطورة من 35 إلى 55.",
+    "riskScoreBefore": 35,
+    "riskScoreAfter": 55
+  },
+  {
+    "id": "ins-hist-002",
+    "establishmentId": "est-001",
+    "inspectorName": "سارة المطيري",
+    "startedAt": "2026-01-30T10:00:00.000Z",
+    "completedAt": "2026-01-30T12:30:00.000Z",
+    "status": "completed",
+    "violations": [
+      {
+        "id": "vio-002",
+        "establishmentId": "est-001",
+        "inspectionId": "ins-hist-002",
+        "date": "2026-01-30",
+        "category": "hygiene",
+        "severity": "medium",
+        "description": "أسطح تحضير الطعام غير معقمة وتفتقر للاشتراطات والمعايير الصحية المعتمدة.",
+        "evidenceUrl": "/demo-evidence/hygiene-01.jpg",
+        "isRepeat": false,
+        "matchedPreviousViolationId": null
+      }
+    ],
+    "summary": "جولة تفتيشية على مطاعم النور. رُصدت مخالفة نظافة عامة بدرجة متوسطة. أُعطيت المنشأة مهلة أسبوع لمعالجة أسطح التحضير. رُفعت درجة الخطورة من 55 إلى 65.",
+    "riskScoreBefore": 55,
+    "riskScoreAfter": 65
+  },
+  {
+    "id": "ins-hist-003",
+    "establishmentId": "est-001",
+    "inspectorName": "أحمد العتيبي",
+    "startedAt": "2025-11-16T08:30:00.000Z",
+    "completedAt": "2025-11-16T10:45:00.000Z",
+    "status": "completed",
+    "violations": [
+      {
+        "id": "vio-003",
+        "establishmentId": "est-001",
+        "inspectionId": "ins-hist-003",
+        "date": "2025-11-16",
+        "category": "food_storage",
+        "severity": "medium",
+        "description": "تم حفظ وتخزين أطعمة مطهية مكشوفة بجوار مواد خام دون عزل أو أغطية محكمة.",
+        "evidenceUrl": "/demo-evidence/food-storage-02.jpg",
+        "isRepeat": true,
+        "matchedPreviousViolationId": "vio-001"
+      }
+    ],
+    "summary": "جولة تفتيشية على مطاعم النور. رُصدت مخالفة تخزين أغذية متكررة (تكرار لمخالفة سابقة). وجود الطعام المطبوخ بجانب المواد الخام دون حواجز يشير إلى استمرار المشكلة. رُفعت درجة الخطورة من 35 إلى 60.",
+    "riskScoreBefore": 35,
+    "riskScoreAfter": 60
+  },
+  {
+    "id": "ins-hist-004",
+    "establishmentId": "est-002",
+    "inspectorName": "سارة المطيري",
+    "startedAt": "2026-06-03T09:00:00.000Z",
+    "completedAt": "2026-06-03T11:00:00.000Z",
+    "status": "completed",
+    "violations": [
+      {
+        "id": "vio-004",
+        "establishmentId": "est-002",
+        "inspectionId": "ins-hist-004",
+        "date": "2026-06-03",
+        "category": "expired_product",
+        "severity": "medium",
+        "description": "عرض وتداول منتجات غذائية معبأة بعد انتهاء تواريخ صلاحيتها المدونة على العبوات.",
+        "evidenceUrl": "/demo-evidence/expired-product-01.jpg",
+        "isRepeat": false,
+        "matchedPreviousViolationId": null
+      }
+    ],
+    "summary": "جولة تفتيشية على تموينات السلة الخضراء. رُصدت منتجات معروضة بعد تاريخ انتهاء صلاحيتها. تم إخطار المنشأة بضرورة مراجعة تواريخ الصلاحية يومياً. رُفعت درجة الخطورة من 25 إلى 35.",
+    "riskScoreBefore": 25,
+    "riskScoreAfter": 35
+  },
+  {
+    "id": "ins-hist-005",
+    "establishmentId": "est-004",
+    "inspectorName": "أحمد العتيبي",
+    "startedAt": "2026-05-08T08:00:00.000Z",
+    "completedAt": "2026-05-08T10:30:00.000Z",
+    "status": "completed",
+    "violations": [
+      {
+        "id": "vio-005",
+        "establishmentId": "est-004",
+        "inspectionId": "ins-hist-005",
+        "date": "2026-05-08",
+        "category": "pest_control",
+        "severity": "critical",
+        "description": "رصد نشاط وتواجد حشرات وآفات حية داخل منطقة إعداد وتحضير الأطعمة.",
+        "evidenceUrl": "/demo-evidence/pest-control-01.jpg",
+        "isRepeat": false,
+        "matchedPreviousViolationId": null
+      }
+    ],
+    "summary": "جولة تفتيشية على مقهى لقمة طيبة. رُصدت مخالفة حرجة لمكافحة الآفات في منطقة تحضير الطعام. تم إصدار أمر إيقاف لمنطقة التحضير ريثما تُعالج المشكلة. رُفعت درجة الخطورة من 40 إلى 70.",
+    "riskScoreBefore": 40,
+    "riskScoreAfter": 70
+  },
+  {
+    "id": "ins-hist-006",
+    "establishmentId": "est-004",
+    "inspectorName": "سارة المطيري",
+    "startedAt": "2026-03-19T09:30:00.000Z",
+    "completedAt": "2026-03-19T11:00:00.000Z",
+    "status": "completed",
+    "violations": [
+      {
+        "id": "vio-006",
+        "establishmentId": "est-004",
+        "inspectionId": "ins-hist-006",
+        "date": "2026-03-19",
+        "category": "hygiene",
+        "severity": "high",
+        "description": "غياب مستلزمات التعقيم والمطهرات المعتمدة عند أحواض غسيل وتحضير الأغذية.",
+        "evidenceUrl": "/demo-evidence/hygiene-02.jpg",
+        "isRepeat": false,
+        "matchedPreviousViolationId": null
+      }
+    ],
+    "summary": "جولة تفتيشية على مقهى لقمة طيبة. رُصد غياب مستلزمات التنظيف عند أحواض تحضير الطعام. أُعطيت المنشأة مهلة 48 ساعة للتصحيح. رُفعت درجة الخطورة من 40 إلى 60.",
+    "riskScoreBefore": 40,
+    "riskScoreAfter": 60
+  },
+  {
+    "id": "ins-hist-007",
+    "establishmentId": "est-005",
+    "inspectorName": "أحمد العتيبي",
+    "startedAt": "2025-12-10T10:00:00.000Z",
+    "completedAt": "2025-12-10T12:00:00.000Z",
+    "status": "completed",
+    "violations": [
+      {
+        "id": "vio-007",
+        "establishmentId": "est-005",
+        "inspectionId": "ins-hist-007",
+        "date": "2025-12-10",
+        "category": "fire_safety",
+        "severity": "high",
+        "description": "انسداد جزئي لمسار ومخرج الطوارئ بسبب تكديس بضائع ومعدات تخزين في الممرات.",
+        "evidenceUrl": "/demo-evidence/fire-safety-01.jpg",
+        "isRepeat": false,
+        "matchedPreviousViolationId": null
+      }
+    ],
+    "summary": "جولة تفتيشية على مستودع الخليج. رُصد سد جزئي لمسار الإخلاء الطارئ. تم إخطار المنشأة بتحريك المواد المخزنة فوراً. رُفعت درجة الخطورة من 30 إلى 50.",
+    "riskScoreBefore": 30,
+    "riskScoreAfter": 50
+  },
+  {
+    "id": "ins-hist-008",
+    "establishmentId": "est-006",
+    "inspectorName": "سارة المطيري",
+    "startedAt": "2026-02-25T11:00:00.000Z",
+    "completedAt": "2026-02-25T12:30:00.000Z",
+    "status": "completed",
+    "violations": [
+      {
+        "id": "vio-008",
+        "establishmentId": "est-006",
+        "inspectionId": "ins-hist-008",
+        "date": "2026-02-25",
+        "category": "hygiene",
+        "severity": "medium",
+        "description": "عدم حفظ وتخزين الأدوات القابلة لإعادة الاستخدام في أوعية معقمة ومحكمة الإغلاق.",
+        "evidenceUrl": "/demo-evidence/hygiene-03.jpg",
+        "isRepeat": false,
+        "matchedPreviousViolationId": null
+      }
+    ],
+    "summary": "جولة تفتيشية على صالون الورد. رُصد عدم تخزين الأدوات القابلة لإعادة الاستخدام في حاويات معقمة. تم توجيه إنذار خطي للمنشأة. رُفعت درجة الخطورة من 20 إلى 30.",
+    "riskScoreBefore": 20,
+    "riskScoreAfter": 30
+  },
+  {
+    "id": "ins-hist-009",
+    "establishmentId": "est-008",
+    "inspectorName": "أحمد العتيبي",
+    "startedAt": "2026-01-17T09:00:00.000Z",
+    "completedAt": "2026-01-17T11:30:00.000Z",
+    "status": "completed",
+    "violations": [
+      {
+        "id": "vio-009",
+        "establishmentId": "est-008",
+        "inspectionId": "ins-hist-009",
+        "date": "2026-01-17",
+        "category": "food_storage",
+        "severity": "high",
+        "description": "غياب وعدم انتظام سجل قراءات درجات حرارة غرف ومستودعات التبريد اليومية.",
+        "evidenceUrl": "/demo-evidence/food-storage-03.jpg",
+        "isRepeat": false,
+        "matchedPreviousViolationId": null
+      }
+    ],
+    "summary": "جولة تفتيشية على مستودع المدينة للتبريد. رُصد غياب سجل درجات حرارة التخزين البارد لعدة أيام. طُلب من المنشأة تفعيل نظام مراقبة الحرارة فوراً. رُفعت درجة الخطورة من 32 إلى 52.",
+    "riskScoreBefore": 32,
+    "riskScoreAfter": 52
+  },
+  {
+    "id": "ins-hist-010",
+    "establishmentId": "est-008",
+    "inspectorName": "سارة المطيري",
+    "startedAt": "2025-10-22T09:30:00.000Z",
+    "completedAt": "2025-10-22T11:00:00.000Z",
+    "status": "completed",
+    "violations": [
+      {
+        "id": "vio-010",
+        "establishmentId": "est-008",
+        "inspectionId": "ins-hist-010",
+        "date": "2025-10-22",
+        "category": "food_storage",
+        "severity": "medium",
+        "description": "ترك شحنات وبضائع مجمدة خارج منطقة التبريد المخصصة أثناء عمليات الاستلام والتفريغ.",
+        "evidenceUrl": "/demo-evidence/food-storage-04.jpg",
+        "isRepeat": true,
+        "matchedPreviousViolationId": "vio-009"
+      }
+    ],
+    "summary": "جولة تفتيشية على مستودع المدينة للتبريد. رُصدت مخالفة تخزين متكررة؛ بضائع مجمدة خارج منطقة التبريد. تكرار المخالفة يستدعي متابعة مكثفة. رُفعت درجة الخطورة من 32 إلى 57.",
+    "riskScoreBefore": 32,
+    "riskScoreAfter": 57
+  }
+]

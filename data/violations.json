@@ -1,0 +1,122 @@
+[
+  {
+    "id": "vio-001",
+    "establishmentId": "est-001",
+    "inspectionId": "ins-hist-001",
+    "date": "2026-04-12",
+    "category": "food_storage",
+    "severity": "high",
+    "description": "تم رصد تخزين مواد غذائية خام في درجات حرارة غير آمنة خارج النطاق المعتمد.",
+    "evidenceUrl": "/demo-evidence/food-storage-01.jpg",
+    "isRepeat": false,
+    "matchedPreviousViolationId": null
+  },
+  {
+    "id": "vio-002",
+    "establishmentId": "est-001",
+    "inspectionId": "ins-hist-002",
+    "date": "2026-01-30",
+    "category": "hygiene",
+    "severity": "medium",
+    "description": "أسطح تحضير الطعام غير معقمة وتفتقر للاشتراطات والمعايير الصحية المعتمدة.",
+    "evidenceUrl": "/demo-evidence/hygiene-01.jpg",
+    "isRepeat": false,
+    "matchedPreviousViolationId": null
+  },
+  {
+    "id": "vio-003",
+    "establishmentId": "est-001",
+    "inspectionId": "ins-hist-003",
+    "date": "2025-11-16",
+    "category": "food_storage",
+    "severity": "medium",
+    "description": "تم حفظ وتخزين أطعمة مطهية مكشوفة بجوار مواد خام دون عزل أو أغطية محكمة.",
+    "evidenceUrl": "/demo-evidence/food-storage-02.jpg",
+    "isRepeat": true,
+    "matchedPreviousViolationId": "vio-001"
+  },
+  {
+    "id": "vio-004",
+    "establishmentId": "est-002",
+    "inspectionId": "ins-hist-004",
+    "date": "2026-06-03",
+    "category": "expired_product",
+    "severity": "medium",
+    "description": "عرض وتداول منتجات غذائية معبأة بعد انتهاء تواريخ صلاحيتها المدونة على العبوات.",
+    "evidenceUrl": "/demo-evidence/expired-product-01.jpg",
+    "isRepeat": false,
+    "matchedPreviousViolationId": null
+  },
+  {
+    "id": "vio-005",
+    "establishmentId": "est-004",
+    "inspectionId": "ins-hist-005",
+    "date": "2026-05-08",
+    "category": "pest_control",
+    "severity": "critical",
+    "description": "رصد نشاط وتواجد حشرات وآفات حية داخل منطقة إعداد وتحضير الأطعمة.",
+    "evidenceUrl": "/demo-evidence/pest-control-01.jpg",
+    "isRepeat": false,
+    "matchedPreviousViolationId": null
+  },
+  {
+    "id": "vio-006",
+    "establishmentId": "est-004",
+    "inspectionId": "ins-hist-006",
+    "date": "2026-03-19",
+    "category": "hygiene",
+    "severity": "high",
+    "description": "غياب مستلزمات التعقيم والمطهرات المعتمدة عند أحواض غسيل وتحضير الأغذية.",
+    "evidenceUrl": "/demo-evidence/hygiene-02.jpg",
+    "isRepeat": false,
+    "matchedPreviousViolationId": null
+  },
+  {
+    "id": "vio-007",
+    "establishmentId": "est-005",
+    "inspectionId": "ins-hist-007",
+    "date": "2025-12-10",
+    "category": "fire_safety",
+    "severity": "high",
+    "description": "انسداد جزئي لمسار ومخرج الطوارئ بسبب تكديس بضائع ومعدات تخزين في الممرات.",
+    "evidenceUrl": "/demo-evidence/fire-safety-01.jpg",
+    "isRepeat": false,
+    "matchedPreviousViolationId": null
+  },
+  {
+    "id": "vio-008",
+    "establishmentId": "est-006",
+    "inspectionId": "ins-hist-008",
+    "date": "2026-02-25",
+    "category": "hygiene",
+    "severity": "medium",
+    "description": "عدم حفظ وتخزين الأدوات القابلة لإعادة الاستخدام في أوعية معقمة ومحكمة الإغلاق.",
+    "evidenceUrl": "/demo-evidence/hygiene-03.jpg",
+    "isRepeat": false,
+    "matchedPreviousViolationId": null
+  },
+  {
+    "id": "vio-009",
+    "establishmentId": "est-008",
+    "inspectionId": "ins-hist-009",
+    "date": "2026-01-17",
+    "category": "food_storage",
+    "severity": "high",
+    "description": "غياب وعدم انتظام سجل قراءات درجات حرارة غرف ومستودعات التبريد اليومية.",
+    "evidenceUrl": "/demo-evidence/food-storage-03.jpg",
+    "isRepeat": false,
+    "matchedPreviousViolationId": null
+  },
+  {
+    "id": "vio-010",
+    "establishmentId": "est-008",
+    "inspectionId": "ins-hist-010",
+    "date": "2025-10-22",
+    "category": "food_storage",
+    "severity": "medium",
+    "description": "ترك شحنات وبضائع مجمدة خارج منطقة التبريد المخصصة أثناء عمليات الاستلام والتفريغ.",
+    "evidenceUrl": "/demo-evidence/food-storage-04.jpg",
+    "isRepeat": true,
+    "matchedPreviousViolationId": "vio-009"
+  }
+]
