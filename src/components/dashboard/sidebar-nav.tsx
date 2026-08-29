@@ -7,6 +7,7 @@ import {
   CpuIcon,
   FileCheckIcon,
   LayoutDashboardIcon,
+  MapIcon,
   ProductMarkIcon,
   ShieldAlertIcon,
 } from "./icons";
@@ -63,6 +64,18 @@ export function SidebarNav({ urgentCount = 3 }: SidebarNavProps) {
             <LayoutDashboardIcon size={16} className="text-emerald-400" />
             <span>لوحة العمليات والرقابة</span>
           </Link>
+          <a
+            href="#madinah-map"
+            className="flex items-center justify-between px-3.5 py-2.5 rounded text-gray-300 hover:text-white hover:bg-gov-slate/50 transition-colors"
+          >
+            <div className="flex items-center gap-3">
+              <MapIcon size={16} className="text-emerald-400" />
+              <span>خريطة المدينة الذكية</span>
+            </div>
+            <span className="text-[9px] bg-emerald-500/20 text-emerald-300 font-mono px-1.5 py-0.5 rounded border border-emerald-500/30">
+              GIS
+            </span>
+          </a>
           <a
             href="#priority"
             className="flex items-center gap-3 px-3.5 py-2.5 rounded text-gray-300 hover:text-white hover:bg-gov-slate/50 transition-colors"

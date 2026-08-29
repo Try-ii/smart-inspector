@@ -120,6 +120,16 @@ export function MapPinIcon(props?: IconProps) {
   );
 }
 
+export function MapIcon(props?: IconProps) {
+  return (
+    <SvgIcon {...props}>
+      <polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21" />
+      <line x1="9" x2="9" y1="3" y2="18" />
+      <line x1="15" x2="15" y1="6" y2="21" />
+    </SvgIcon>
+  );
+}
+
 export function UtensilsIcon(props?: IconProps) {
   return (
     <SvgIcon {...props}>

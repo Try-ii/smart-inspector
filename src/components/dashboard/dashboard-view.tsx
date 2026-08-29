@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 import { DashboardHeader } from "@/components/dashboard/dashboard-header";
+import { MadinahMap } from "@/components/dashboard/madinah-map";
 import { EstablishmentsTable } from "@/components/dashboard/establishments-table";
 import { KpiSummary } from "@/components/dashboard/kpi-summary";
 import { RiskDistribution } from "@/components/dashboard/risk-distribution";
@@ -87,6 +88,9 @@ export function DashboardView({
           onRecalculate={handleRecalculate}
           onOpenDispatch={() => handleOpenDispatch()}
         />
+
+        {/* SECTION: MADINAH TACTICAL GIS MAP */}
+        <MadinahMap establishments={establishments} />
 
         {/* SECTION 2 & 2.5: KPI METRICS STRIP + TELEMETRY */}
         <KpiSummary establishments={establishments} violations={violations} />
